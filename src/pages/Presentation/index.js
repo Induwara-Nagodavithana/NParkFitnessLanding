@@ -41,10 +41,12 @@ import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 
 // Routes
 import routes from "routes";
+import bgImage from "assets/images/gym-bg2.jpg";
+
+import constants from "constants.js";
 // import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/gym-bg2.jpg";
 
 function Presentation() {
   return (
@@ -63,7 +65,7 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
+          route: `${constants.baseUrl}`,
           label: "Sign In",
           color: "secondary",
         }}

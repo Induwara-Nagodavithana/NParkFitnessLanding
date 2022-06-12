@@ -12,6 +12,7 @@ import PropTypes from "prop-types";
 import DoneIcon from "@mui/icons-material/Done";
 import CloseIcon from "@mui/icons-material/Close";
 import MKTypography from "components/MKTypography";
+import constants from "constants.js";
 
 const useStyles = makeStyles(() => ({
   mainCard: {
@@ -47,10 +48,6 @@ const useStyles = makeStyles(() => ({
 function PriceItem({ subData }) {
   console.log(subData);
   const classes = useStyles();
-
-  const handleClick = () => {
-    console.log("Clicked");
-  };
 
   return (
     <MKBox
@@ -108,7 +105,7 @@ function PriceItem({ subData }) {
             className={classes.button}
             variant="outlined"
             color="secondary"
-            onClick={handleClick}
+            href={constants.baseUrl}
           >
             Get Start
           </Button>

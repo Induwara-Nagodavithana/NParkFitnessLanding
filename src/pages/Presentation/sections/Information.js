@@ -30,6 +30,7 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 // Images
 import bgFront from "assets/images/rotating-card-bg-front.jpeg";
 import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+import constants from "constants.js";
 
 function Information() {
   return (
@@ -57,8 +58,8 @@ function Information() {
                 title="Discover More"
                 description="You will save a lot of time and money. Hurry up and join us."
                 action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
+                  type: "external",
+                  route: `${constants.baseUrl}`,
                   label: "Join",
                 }}
               />

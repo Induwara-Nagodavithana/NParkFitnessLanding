@@ -21,6 +21,7 @@ import Icon from "@mui/material/Icon";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import constants from "constants.js";
 
 function BuiltByDevelopers() {
   const bgImage =
@@ -58,7 +59,7 @@ function BuiltByDevelopers() {
           </MKTypography>
           <MKTypography
             component="a"
-            href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
+            href={constants.baseUrl}
             target="_blank"
             rel="noreferrer"
             variant="body2"
