@@ -72,8 +72,7 @@ function Information() {
                   color="info"
                   icon={<ContentCopyIcon color="primary" fontSize="large" />}
                   title="Schedule Managment"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  description="Create workout plans according to the need of the customers with time routines. Able to select workout activities that are available in your branch. Quickly view customers’ training progress with exercise and workout history."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
@@ -81,7 +80,7 @@ function Information() {
                   color="error"
                   icon="restaurant"
                   title="Diet Plan"
-                  description="The world's most popular react components library for building user interfaces."
+                  description="Make diet plans according to the goals that customers want to achieve. Customer can get their diet plans through the mobile application. "
                 />
               </Grid>
             </Grid>
@@ -91,7 +90,7 @@ function Information() {
                   color="success"
                   icon="price_change"
                   title="Online Payment"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  description="The customers can pay their gym payments online quickly and can easily handle payments in a systemic way."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
@@ -99,7 +98,7 @@ function Information() {
                   color="secondary"
                   icon="devices"
                   title="Attendance"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  description="Track the attendance accurately using a QR code and manage the customers' attendance details regularly. "
                 />
               </Grid>
               <Grid item xs={12} md={6}>
@@ -107,7 +106,7 @@ function Information() {
                   color="error"
                   icon="devices"
                   title="Weight Prediction"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  description="Monitor and analyze the current weight changes and give future weight predictions according to the workout schedules and diet plans."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
@@ -115,7 +114,7 @@ function Information() {
                   color="warning"
                   icon="devices"
                   title="Devices"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  description="Web site for gym management and mobile application is for customers. Create a good connection between the gym and customers and keep your customer engaged and motivated with encouragement."
                 />
               </Grid>
             </Grid>

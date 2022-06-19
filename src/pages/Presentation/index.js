@@ -136,7 +136,7 @@ function Presentation() {
                 color="secondary"
                 icon="flag"
                 title="Employee Managment"
-                description="Check the possible ways of working with our product and the necessary files for building your own project."
+                description="We make it easy to manage your staff in a comfortable manner by tracking their attendance and details."
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -145,7 +145,7 @@ function Presentation() {
                 color="warning"
                 icon="precision_manufacturing"
                 title="Reports"
-                description="Get inspiration and have an overview about the plugins that we used to create the Material Kit."
+                description="At the end of the day, you can get the whole idea about the gym through a report that includes all the details you want."
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -154,7 +154,7 @@ function Presentation() {
                 color="success"
                 icon="apps"
                 title="Calorie Calculator"
-                description="Material Kit is giving you a lot of pre-made components, that will help you to build UI's faster."
+                description="Enter the food items and can get the various nutritions amount in a graphical view. You will feel useful when making diet plans.."
                 // action={{
                 //   type: "external",
                 //   route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",

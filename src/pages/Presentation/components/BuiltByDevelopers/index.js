@@ -53,7 +53,7 @@ function BuiltByDevelopers() {
             Hurry Up And Come Join Us.
           </MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            If you want your bussiness come join with us. With our managment tools, Schedule
+            If you want your bussiness to grow come join with us. With our managment tools, Schedule
             planing, Diet plans, Attendance Managment and notifications your business will grow in
             no time.
           </MKTypography>
