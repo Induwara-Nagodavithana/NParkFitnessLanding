@@ -25,7 +25,7 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-// import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
@@ -44,7 +44,7 @@ import routes from "routes";
 import bgImage from "assets/images/gym-bg2.jpg";
 
 import constants from "constants.js";
-// import footerRoutes from "footer.routes";
+import footerRoutes from "footer.routes";
 
 // Images
 
@@ -222,9 +222,9 @@ function Presentation() {
           </Container>
         </MKBox> */}
       </Card>
-      {/* <MKBox pt={6} px={1} mt={6}>
+      <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
-      </MKBox> */}
+      </MKBox>
     </>
   );
 }
